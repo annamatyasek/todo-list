@@ -1,0 +1,8 @@
+<p>todo-list works!</p>
+<div class="todos-list" *ngFor="let todo2 of todos2; let i = index">
+  <div class="todo-list">
+    <div class="id">{{ i }}</div>
+    <div class="content">{{ todo2.content }}</div>
+    <button class="delete">Wykonane</button>
+  </div>
+</div>
